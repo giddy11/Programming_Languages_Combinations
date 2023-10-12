@@ -57,10 +57,16 @@ Console.WriteLine();
 
 */
 
-/*   Second example  */
-var numList = new List<object>();
+using LinkedList1;
 
-for (int i = 0; i < 5; i++)
-{
-    numList.Add
-}
+var myList = new CustomLinkedList<int>();
+var val1 = new ListNode<int>(1);
+var val2 = new ListNode<int>(2);
+var val3 = new ListNode<int>(3);
+
+myList.AddNode(val1);
+myList.AddNode(val2);
+myList.AddNode(val3);
+
+
+Console.WriteLine(myList.ToString());
