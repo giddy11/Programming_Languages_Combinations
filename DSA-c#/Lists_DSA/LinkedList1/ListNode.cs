@@ -20,11 +20,6 @@ namespace LinkedList1
             PreviousNode = previousNode;
         }
 
-        //creating a node at the middle
-        public ListNode(T value, ListNode<T> previousNode, ListNode<T> nextNode): this(value, nextNode)
-        {
-            PreviousNode = previousNode;
-        }
         public T Value { get; set; }
         public ListNode<T> PreviousNode { get; set; }
         public ListNode<T> NextNode { get; set; }
