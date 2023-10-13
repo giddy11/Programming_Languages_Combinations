@@ -1,7 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("hello");
-
 var myList = new CustomLinkedList();
 var node1 = new Node(1);
 var node2 = new Node(2);
@@ -41,6 +39,35 @@ class CustomLinkedList
             Tail = node;
             Tail.Prev = temp;
         }
+    }
+
+    public void AddFirst(Node node)
+    {
+        if (Head == null)
+        {
+            Head = Tail = node;
+        }
+        else
+        {
+            //var temp = Head;
+            //temp.PreviousNode = node; // Set the previous node of the current Head
+            //node.NextNode = temp;     // Set the next node of the new node
+            //Head = node;
+            var temp = node;
+            Head.Prev = node;
+            node.Next = Head;
+            Head = temp;
+        }
+    }
+
+    public void AddLast(Node node)
+    {
+        AddNode(node);
+    }
+
+    public void DeleteNode(Node node)
+    {
+
     }
 
     public override string ToString()

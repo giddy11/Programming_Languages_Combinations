@@ -63,10 +63,15 @@ var myList = new CustomLinkedList<int>();
 var val1 = new ListNode<int>(1);
 var val2 = new ListNode<int>(2);
 var val3 = new ListNode<int>(3);
+var val4 = new ListNode<int>(30);
+var val5 = new ListNode<int>(21);
 
 myList.AddNode(val1);
 myList.AddNode(val2);
+myList.AddFirst(val4);
+
 myList.AddNode(val3);
+myList.AddFirst(val5);
 
 Console.WriteLine(myList.ToString());
 
@@ -89,6 +94,25 @@ public class CustomLinkedList<T>
             Tail.NextNode = node;
             Tail = node;
             Tail.PreviousNode = temp;
+        }
+    }
+
+    public void AddFirst(ListNode<T> node)
+    {
+        if (Head == null)
+        {
+            Head = Tail = node;
+        }
+        else
+        {
+            //var temp = Head;
+            //temp.PreviousNode = node; // Set the previous node of the current Head
+            //node.NextNode = temp;     // Set the next node of the new node
+            //Head = node;
+            var temp = node;
+            Head.PreviousNode = node;
+            node.NextNode = Head;
+            Head = temp;
         }
     }
 
