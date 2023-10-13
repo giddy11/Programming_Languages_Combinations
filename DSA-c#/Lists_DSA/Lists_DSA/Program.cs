@@ -57,7 +57,7 @@ Console.WriteLine();
 
 */
 
-using LinkedList1;
+using System.Xml.Linq;
 
 var myList = new CustomLinkedList<int>();
 var val1 = new ListNode<int>(1);
@@ -68,5 +68,64 @@ myList.AddNode(val1);
 myList.AddNode(val2);
 myList.AddNode(val3);
 
-
 Console.WriteLine(myList.ToString());
+
+
+public class CustomLinkedList<T>
+{
+    //public T HeadValue => Head.Value;
+    public ListNode<T> Head { get; set; }
+    public ListNode<T> Tail { get; set; }
+
+    public void AddNode(ListNode<T> node)
+    {
+        if (Head == null)
+        {
+            Head = Tail = node;
+        }
+        else
+        {
+            var temp = Tail;
+            Tail.NextNode = node;
+            Tail = node;
+            Tail.PreviousNode = temp;
+        }
+    }
+
+    public override string ToString()
+    {
+        ListNode<T> current = Head;
+        string result = "";
+
+        while (current != null)
+        {
+            result += current.Value + " ";
+            current = current.NextNode;
+        }
+
+        return result;
+    }
+    public void DeleteNode()
+    {
+
+    }
+}
+
+public class ListNode<T>
+{
+    //creating a node when you havent decided whether its at the head or tail
+    public ListNode(T value)
+    {
+        Value = value;
+    }
+
+    //creating a node at the head or tail
+    public ListNode(T value, ListNode<T> previousNode) : this(value)
+    {
+        PreviousNode = previousNode;
+    }
+
+    public T Value { get; set; }
+    public ListNode<T> PreviousNode { get; set; }
+    public ListNode<T> NextNode { get; set; }
+}
