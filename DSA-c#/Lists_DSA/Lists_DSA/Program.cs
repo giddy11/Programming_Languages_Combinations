@@ -57,8 +57,6 @@ Console.WriteLine();
 
 */
 
-using System.Xml.Linq;
-
 var myList = new CustomLinkedList<int>();
 var val1 = new ListNode<int>(1);
 var val2 = new ListNode<int>(2);

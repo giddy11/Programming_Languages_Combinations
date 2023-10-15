@@ -1,0 +1,12 @@
+C:\Users\Gideon\Desktop\HANDS_ON\Programming_Languages_Combinations\DSA-c#\Lists_DSA\StackLibrary\bin\Debug\net6.0\StackLibrary.deps.json
+C:\Users\Gideon\Desktop\HANDS_ON\Programming_Languages_Combinations\DSA-c#\Lists_DSA\StackLibrary\bin\Debug\net6.0\StackLibrary.dll
+C:\Users\Gideon\Desktop\HANDS_ON\Programming_Languages_Combinations\DSA-c#\Lists_DSA\StackLibrary\bin\Debug\net6.0\StackLibrary.pdb
+C:\Users\Gideon\Desktop\HANDS_ON\Programming_Languages_Combinations\DSA-c#\Lists_DSA\StackLibrary\obj\Debug\net6.0\StackLibrary.csproj.AssemblyReference.cache
+C:\Users\Gideon\Desktop\HANDS_ON\Programming_Languages_Combinations\DSA-c#\Lists_DSA\StackLibrary\obj\Debug\net6.0\StackLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gideon\Desktop\HANDS_ON\Programming_Languages_Combinations\DSA-c#\Lists_DSA\StackLibrary\obj\Debug\net6.0\StackLibrary.AssemblyInfoInputs.cache
+C:\Users\Gideon\Desktop\HANDS_ON\Programming_Languages_Combinations\DSA-c#\Lists_DSA\StackLibrary\obj\Debug\net6.0\StackLibrary.AssemblyInfo.cs
+C:\Users\Gideon\Desktop\HANDS_ON\Programming_Languages_Combinations\DSA-c#\Lists_DSA\StackLibrary\obj\Debug\net6.0\StackLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Gideon\Desktop\HANDS_ON\Programming_Languages_Combinations\DSA-c#\Lists_DSA\StackLibrary\obj\Debug\net6.0\StackLibrary.dll
+C:\Users\Gideon\Desktop\HANDS_ON\Programming_Languages_Combinations\DSA-c#\Lists_DSA\StackLibrary\obj\Debug\net6.0\refint\StackLibrary.dll
+C:\Users\Gideon\Desktop\HANDS_ON\Programming_Languages_Combinations\DSA-c#\Lists_DSA\StackLibrary\obj\Debug\net6.0\StackLibrary.pdb
+C:\Users\Gideon\Desktop\HANDS_ON\Programming_Languages_Combinations\DSA-c#\Lists_DSA\StackLibrary\obj\Debug\net6.0\ref\StackLibrary.dll
