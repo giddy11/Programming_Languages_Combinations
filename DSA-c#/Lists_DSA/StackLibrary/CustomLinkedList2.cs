@@ -69,8 +69,22 @@ namespace StackLibrary
                 if (nodeToDelete == Head)
                     Head = nodeToDelete.Next;
 
+
+
                 return nodeToDelete;
             }
+        }
+
+        public Node2<T>? DeleteFirstNode()
+        {
+            if (Head != null)
+            {
+                var temp = Head;
+                Head = Head.Next;
+                temp.Next = null;
+                return temp;
+            }
+            return null;
         }
 
         public void Clear()
@@ -92,5 +106,6 @@ namespace StackLibrary
 
         public Node2<T> Head {  get; set; }
         public Node2<T> Tail { get; set; }
+        public int Count = 0;
     }
 }
