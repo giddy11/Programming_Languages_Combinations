@@ -1,0 +1,15 @@
+C:\Users\gideon.edoghotu\Desktop\ALX\Programming_Languages_Combinations\DSA-c#\LinkedList1\LinkedList1\obj\Debug\net6.0\LinkedList1.csproj.AssemblyReference.cache
+C:\Users\gideon.edoghotu\Desktop\ALX\Programming_Languages_Combinations\DSA-c#\LinkedList1\LinkedList1\obj\Debug\net6.0\LinkedList1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gideon.edoghotu\Desktop\ALX\Programming_Languages_Combinations\DSA-c#\LinkedList1\LinkedList1\obj\Debug\net6.0\LinkedList1.AssemblyInfoInputs.cache
+C:\Users\gideon.edoghotu\Desktop\ALX\Programming_Languages_Combinations\DSA-c#\LinkedList1\LinkedList1\obj\Debug\net6.0\LinkedList1.AssemblyInfo.cs
+C:\Users\gideon.edoghotu\Desktop\ALX\Programming_Languages_Combinations\DSA-c#\LinkedList1\LinkedList1\obj\Debug\net6.0\LinkedList1.csproj.CoreCompileInputs.cache
+C:\Users\gideon.edoghotu\Desktop\ALX\Programming_Languages_Combinations\DSA-c#\LinkedList1\LinkedList1\bin\Debug\net6.0\LinkedList1.exe
+C:\Users\gideon.edoghotu\Desktop\ALX\Programming_Languages_Combinations\DSA-c#\LinkedList1\LinkedList1\bin\Debug\net6.0\LinkedList1.deps.json
+C:\Users\gideon.edoghotu\Desktop\ALX\Programming_Languages_Combinations\DSA-c#\LinkedList1\LinkedList1\bin\Debug\net6.0\LinkedList1.runtimeconfig.json
+C:\Users\gideon.edoghotu\Desktop\ALX\Programming_Languages_Combinations\DSA-c#\LinkedList1\LinkedList1\bin\Debug\net6.0\LinkedList1.dll
+C:\Users\gideon.edoghotu\Desktop\ALX\Programming_Languages_Combinations\DSA-c#\LinkedList1\LinkedList1\bin\Debug\net6.0\LinkedList1.pdb
+C:\Users\gideon.edoghotu\Desktop\ALX\Programming_Languages_Combinations\DSA-c#\LinkedList1\LinkedList1\obj\Debug\net6.0\LinkedList1.dll
+C:\Users\gideon.edoghotu\Desktop\ALX\Programming_Languages_Combinations\DSA-c#\LinkedList1\LinkedList1\obj\Debug\net6.0\refint\LinkedList1.dll
+C:\Users\gideon.edoghotu\Desktop\ALX\Programming_Languages_Combinations\DSA-c#\LinkedList1\LinkedList1\obj\Debug\net6.0\LinkedList1.pdb
+C:\Users\gideon.edoghotu\Desktop\ALX\Programming_Languages_Combinations\DSA-c#\LinkedList1\LinkedList1\obj\Debug\net6.0\LinkedList1.genruntimeconfig.cache
+C:\Users\gideon.edoghotu\Desktop\ALX\Programming_Languages_Combinations\DSA-c#\LinkedList1\LinkedList1\obj\Debug\net6.0\ref\LinkedList1.dll

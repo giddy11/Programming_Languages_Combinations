@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gideon\\Desktop\\HANDS_ON\\Programming_Languages_Combinations\\DSA-c#\\Lists_DSA\\LInkedLists1\\LInkedLists1.csproj": {}
+    "C:\\Users\\gideon.edoghotu\\Desktop\\ALX\\Programming_Languages_Combinations\\DSA-c#\\Lists_DSA\\LInkedLists1\\LInkedLists1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gideon\\Desktop\\HANDS_ON\\Programming_Languages_Combinations\\DSA-c#\\Lists_DSA\\LInkedLists1\\LInkedLists1.csproj": {
+    "C:\\Users\\gideon.edoghotu\\Desktop\\ALX\\Programming_Languages_Combinations\\DSA-c#\\Lists_DSA\\LInkedLists1\\LInkedLists1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gideon\\Desktop\\HANDS_ON\\Programming_Languages_Combinations\\DSA-c#\\Lists_DSA\\LInkedLists1\\LInkedLists1.csproj",
+        "projectUniqueName": "C:\\Users\\gideon.edoghotu\\Desktop\\ALX\\Programming_Languages_Combinations\\DSA-c#\\Lists_DSA\\LInkedLists1\\LInkedLists1.csproj",
         "projectName": "LInkedLists1",
-        "projectPath": "C:\\Users\\Gideon\\Desktop\\HANDS_ON\\Programming_Languages_Combinations\\DSA-c#\\Lists_DSA\\LInkedLists1\\LInkedLists1.csproj",
-        "packagesPath": "C:\\Users\\Gideon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gideon\\Desktop\\HANDS_ON\\Programming_Languages_Combinations\\DSA-c#\\Lists_DSA\\LInkedLists1\\obj\\",
+        "projectPath": "C:\\Users\\gideon.edoghotu\\Desktop\\ALX\\Programming_Languages_Combinations\\DSA-c#\\Lists_DSA\\LInkedLists1\\LInkedLists1.csproj",
+        "packagesPath": "C:\\Users\\gideon.edoghotu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gideon.edoghotu\\Desktop\\ALX\\Programming_Languages_Combinations\\DSA-c#\\Lists_DSA\\LInkedLists1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Gideon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gideon.edoghotu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/cyphercrescent/index.json": {}
         },
         "frameworks": {
           "net6.0": {
