@@ -1,0 +1,47 @@
+https://www.typescriptlang.org/docs/handbook/2/basic-types.html
+https://www.typescriptlang.org/tsconfig#noImplicitAny
+
+
+npm install typescript --save-dev
+npm install -g typescript
+ tsc -v
+
+ tsc --noEmitOnError hello.ts
+
+ ******Downleveling******
+This process of moving from a newer or “higher” version of ECMAScript down to an older or “lower” one is sometimes called downleveling.
+The below syntax doesnt converts anything
+tsc --target es2015 hello.ts
+
+
+ # TypeScript Language
+ Types:
+    Number
+    String
+    Boolean
+    Null
+    Undefined
+    Void
+    Object
+    Array
+    Tuples....
+    Never
+    Unknown
+
+
+any:
+TypeScript also has a special type, any, that you can use whenever you don’t want a particular value to cause typechecking errors.
+It turns off the typechecking errors.
+
+
+****Function Type Expressions*****
+The syntax (a: string) => void means “a function with one parameter, named a, of type string, that doesn’t have a return value”. Just like with function declarations, if a parameter type isn’t specified, it’s implicitly any.
+
+Call Signatures:
+n JavaScript, functions can have properties in addition to being callable. However, the function type expression syntax doesn’t allow for declaring properties. If we want to describe something callable with properties, we can write a call signature in an object type:
+
+never:
+Some functions never return a value
+The never type represents values which are never observed. In a return type, this means that the function throws an exception or terminates execution of the program.
+
+never also appears when TypeScript determines there’s nothing left in a union.
